@@ -47,7 +47,7 @@ class CSFramework_Option_background extends CSFramework_Options {
         'type'            => 'select',
         'name'            => $this->element_name( '[repeat]' ),
         'options'         => array(
-          ''              => 'repeat',
+          'repeat'        => 'repeat',
           'repeat-x'      => 'repeat-x',
           'repeat-y'      => 'repeat-y',
           'no-repeat'     => 'no-repeat',
@@ -63,7 +63,7 @@ class CSFramework_Option_background extends CSFramework_Options {
         'type'            => 'select',
         'name'            => $this->element_name( '[position]' ),
         'options'         => array(
-          ''              => 'left top',
+          'left top'      => 'left top',
           'left center'   => 'left center',
           'left bottom'   => 'left bottom',
           'right top'     => 'right top',
@@ -83,7 +83,7 @@ class CSFramework_Option_background extends CSFramework_Options {
         'type'            => 'select',
         'name'            => $this->element_name( '[attachment]' ),
         'options'         => array(
-          ''              => 'scroll',
+          'scroll'        => 'scroll',
           'fixed'         => 'fixed',
         ),
         'attributes'      => array(
@@ -96,7 +96,7 @@ class CSFramework_Option_background extends CSFramework_Options {
         'type'            => 'select',
         'name'            => $this->element_name( '[size]' ),
         'options'         => array(
-          ''              => 'size',
+          'size'          => 'size',
           'cover'         => 'cover',
           'contain'       => 'contain',
           'inherit'       => 'inherit',
